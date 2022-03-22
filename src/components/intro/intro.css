@@ -1,0 +1,64 @@
+.i{
+   display: flex;
+   font-size: 2rem; 
+   height: 100vh;
+}
+
+.i-left{
+    flex: 1;
+    display: flex;    
+    padding: 8rem;
+    justify-content: center;
+    align-items: center; 
+}
+
+.i-right{
+    flex: 1;
+}
+
+.i-title-wrapper{
+    display: flex;
+    gap: 1rem;
+}
+
+.i-intro{
+    margin-bottom: 1rem;
+}
+
+.i-name{
+    margin-bottom: 2rem;
+}
+
+.i-title{
+    height: 3rem;
+    overflow: hidden;
+}
+
+.i-title-item{
+    display: flex;
+    height: 3rem;
+}
+
+.i-title-items{
+    height: 100%;
+    animation: move 5s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    25%{
+        transform: translateY(-3rem);
+    }
+    50%{
+        transform: translateY(-6rem);
+    }
+    75%{
+        transform: translateY(-9rem);
+    }
+    100%{
+        transform: translateY(-12rem);
+    }
+}
+
+.i-desc{
+    margin-top: 3rem;    
+}
