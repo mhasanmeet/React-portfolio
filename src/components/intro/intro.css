@@ -62,3 +62,16 @@
 .i-desc{
     margin-top: 3rem;    
 }
+
+.i-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 2rem;
+}

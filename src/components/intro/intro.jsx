@@ -1,5 +1,5 @@
+import React from 'react';
 import "./intro.css"
-import me from "../../img/me.jpg"
 
 const Intro = () => {
     return(
@@ -26,7 +26,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-right">
-                <img src={me} className="i-img"></img>
+                <img src={'/img/me.jpg'} className="i-img"></img>
             </div>
         </div>
     )
