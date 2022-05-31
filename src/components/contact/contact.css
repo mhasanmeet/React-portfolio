@@ -1,0 +1,91 @@
+.c{
+    height: 100%;
+    padding: 8rem;
+}
+
+.c-wrapper{
+    display: flex;
+    padding: 2px;
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-right{
+    flex: 1;
+}
+
+.c-info{
+    margin-top: 40px;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;;
+}
+
+.c-icon{
+    width: 30px;
+    margin-right: 20px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px dotted black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    padding: 2px;
+    font-size: 16px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px dotted black;
+    padding: 5px;
+}
+
+textarea::placeholder{
+    padding: 2px;
+    font-size: 16px;
+}
+
+textarea:focus{
+    outline: 2px dotted black;
+    border: none;
+}
+
+button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    /* transition: .2s; */
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    /* transition: .2s; */
+}
