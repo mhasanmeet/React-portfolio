@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./contact.css"
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import 'dotenv/config'
 
 const Contact = () => {
     const formRef = useRef();
@@ -11,7 +12,7 @@ const Contact = () => {
     const handleSubmit = (e) =>{
         e.preventDefault();
 
-        emailjs.sendForm('service_vx08u02', 'template_2d6ldlx', formRef.current, '_GG7Zixxk4TH1ob2A')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formRef.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
             setDone(true)

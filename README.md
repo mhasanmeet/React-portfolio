@@ -5,3 +5,9 @@
 -- Use State
 -- Toggle use for Dark Mode
 -- Use React context API 
+
+-----------
+.env files
+* EMAIL_SERVICE_ID
+* EMAIL_TEMPLATE_ID
+* EMAIL_PUBLIC_KEY
