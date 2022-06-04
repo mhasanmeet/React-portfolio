@@ -9,11 +9,11 @@ import Toggle from "./components/toggle/Toggle"
 const App = () => {
   return (
   <div>
-    <Toggle/>
-    <Intro/>
-    <About/>
-    <ProductList/>
-    <Contact/>
+      <Toggle/>
+      <Intro/>
+      <About/>
+      <ProductList/>
+      <Contact/>
   </div>
   );
 };
