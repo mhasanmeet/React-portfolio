@@ -19,7 +19,9 @@
 
 -----------
 1. Desktop Screenshot
+
 ![Image for Desktop](public/screenshot/img-laptop.png)
 
 2. Mobile Screenshot
+
 ![Image for Desktop](public/screenshot/imgmobile.png)
