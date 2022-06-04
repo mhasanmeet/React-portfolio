@@ -3,10 +3,16 @@ import "./contact.css"
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import 'dotenv/config'
+import { ThemeContext } from '../../context';
+import { useContext } from "react"
 
 const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false)
+
+    // For DarkMode
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode
 
     // Email JS code snippet
     const handleSubmit = (e) =>{
@@ -49,10 +55,10 @@ const Contact = () => {
                 <p className='c-right-title'><b>What's your story?</b> Get in touch always available for freelancing if the righ project comes along me</p>
 
                 <form ref={formRef} onSubmit={handleSubmit}>
-                    <input type="text" placeholder="Name" name="user_name"/>
-                    <input type="text" placeholder="subject" name="user_subject"/>
-                    <input type="email" placeholder="Email" name="user_email"/>
-                    <textarea rows="5" placeholder="Message" name="message"/>
+                    <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name"/>
+                    <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="subject" name="user_subject"/>
+                    <input style={{backgroundColor: darkMode && "#333"}} type="email" placeholder="Email" name="user_email"/>
+                    <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message"/>
                     <button>Submit</button>
                     {done && " Thank You. Soon You're get contacted by Mahmudul"}
                 </form>
