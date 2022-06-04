@@ -6,6 +6,10 @@
 * Toggle use for Dark Mode
 * Use React context API 
 * Use context API
+* Fully Responsive 
+* Responsive Breakpoints 
+    * Mobile = 480px
+    *  
 
 -----------
 .env files

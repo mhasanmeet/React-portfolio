@@ -33,3 +33,29 @@
 .p:hover .p-img{
     transform: translateY(-75%);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px){
+    .p{
+        width: 40%;
+        height: 35vh;
+        border-radius: .2rem;
+        overflow: hidden;
+    }
+
+    .p-browser{
+        height: 20px;
+        border-radius: .2rem .2rem 0 0;
+    }
+
+    .p-circle{
+        width: .5rem;
+        height: .5rem;
+        margin-left: .2rem;
+    }
+
+    .p:hover .p-img{
+        transform: translateY(-40%);
+    }
+}

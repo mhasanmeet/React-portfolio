@@ -20,3 +20,21 @@
     width: 100%;
     justify-content: space-between;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px){
+    .pl{
+        margin-top: 2rem;
+        padding: 2rem;
+    }
+
+    .pl-texts{
+        width: 75%;
+        font-size: 0.9rem;
+    }
+
+    .pl-list{
+        justify-content: space-around;
+    }
+}

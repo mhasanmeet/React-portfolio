@@ -69,3 +69,47 @@
 .a-award-desc{
     margin-top: .5rem;
 }
+
+/* Media Queries */
+@media screen and (max-width: 480px){
+    .a {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+
+    .a-card{
+        width: 40%;
+        height: 10vh;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .a-right{
+        display: flex;
+        margin-top: 2rem;
+        justify-content: center;
+
+    }
+
+    .a-right-content{
+        width: 80%;
+    }
+
+    .a-award-img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .a-award-texts{
+        font-size: 14px;
+    }
+}
