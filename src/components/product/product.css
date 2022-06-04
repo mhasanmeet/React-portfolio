@@ -34,8 +34,32 @@
     transform: translateY(-75%);
 }
 
-/* Media Queries */
+/* Media Queries Tab*/
+@media screen and (max-width: 768px){
+    .p{
+        width: 40%;
+        height: 65vh;
+        border-radius: .7rem;
+        overflow: hidden;
+    }
 
+    .p-browser{
+        height: 30px;
+        border-radius: .7rem .7rem 0 0;
+    }
+
+    .p-circle{
+        width: .8rem;
+        height: .8rem;
+        margin-left: .4rem;
+    }
+
+    .p:hover .p-img{
+        transform: translateY(-40%);
+    }
+}
+
+/* Media Queries Mobile*/
 @media screen and (max-width: 480px){
     .p{
         width: 40%;

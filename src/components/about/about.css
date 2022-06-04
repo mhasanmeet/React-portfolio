@@ -70,7 +70,42 @@
     margin-top: .5rem;
 }
 
-/* Media Queries */
+/* Media Queries Tab*/
+@media screen and (max-width: 768px){
+    .a-card.bg{
+        position: absolute;
+        bottom: 1rem;
+        left: 6rem;
+        background-color: rgba(37, 34, 34, 0.925);
+    }
+
+    .a-left{
+        width: 30%;
+    }
+
+    .a-card{
+        width:60%;
+        height: 40vh;
+        border-radius: 10px;
+    }
+
+    .a-right-content{
+        width: 80%;
+    }
+
+    .a-award-img{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+    }
+
+    .a-award-texts{
+        font-size: 15px;
+    }
+}
+
+/* Media Queries Mobile*/
 @media screen and (max-width: 480px){
     .a {
         height: 100vh;

@@ -21,8 +21,24 @@
     justify-content: space-between;
 }
 
-/* Media Queries */
+/* Media Queries Tab*/
+@media screen and (max-width: 768px){
+    .pl{
+        margin-top: 2rem;
+        padding: 2rem;
+    }
 
+    .pl-texts{
+        width: 75%;
+        font-size: 1.2rem;
+    }
+
+    .pl-list{
+        justify-content: space-around;
+    }
+}
+
+/* Media Queries Mobile*/
 @media screen and (max-width: 480px){
     .pl{
         margin-top: 2rem;

@@ -73,8 +73,42 @@
     border-radius: 2rem;
 }
 
-/* Media Queries */
+/* Media Queries Tab*/
+@media screen and (max-width: 768px){
+    .i-left{   
+        padding: 3rem;
+    }
 
+    .i-left{
+        flex-direction: column;
+        padding: 2.5rem;
+    }
+
+    .i-intro{
+        font-size: 2rem;
+    }
+
+    .i-name{
+        font-size: 3rem;
+    }
+
+    .i-title{
+        height: 2rem;
+    }
+
+    .i-desc{  
+        font-size: 2rem; 
+    }
+
+    .i-img{
+        width: 80%;
+        height: 40%;
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+}
+
+/* Media Queries Mobile*/
 @media screen and (max-width: 480px){
     .i{
         flex-direction: column;

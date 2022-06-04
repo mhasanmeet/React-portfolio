@@ -90,8 +90,7 @@ button:hover{
     /* transition: .2s; */
 }
 
-/* Media Queries */
-
+/* Media Queries  Mobile*/
 @media screen and (max-width: 480px){
     .c-wrapper{
         flex-direction: column;
@@ -145,4 +144,55 @@ button:hover{
         font-size: 14px;
     }
        
+}
+
+
+/* Media Queries Tab*/
+@media screen and (max-width: 768px){
+    .c{
+        padding: 3rem;
+        padding-top: 1.rem;
+    }
+
+    .c-left{
+        margin-bottom: 1rem;
+    }
+
+    .c-title{
+        font-size: 2rem;
+    }
+
+    .c-info{
+        font-size: 1.1rem;
+    }
+
+    .c-icon{
+        width: 28px;
+        margin-right: 18px;
+    }
+
+    .c-right-title{
+        font-size: 1.1rem;
+    }
+
+    input{
+        width: 80%;
+        height: 35px;
+        border-bottom: 2px dotted rgb(103, 103, 103);
+        padding-left: 8px;
+    }
+
+    input::placeholder{
+        font-size: 14px;
+    }
+
+    textarea::placeholder{
+        font-size: 14px;
+    }
+
+    button{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
 }

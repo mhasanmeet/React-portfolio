@@ -8,8 +8,8 @@
 * Use context API
 * Fully Responsive 
 * Responsive Breakpoints 
+    * Tab = 768px
     * Mobile = 480px
-    *  
 
 -----------
 .env files
